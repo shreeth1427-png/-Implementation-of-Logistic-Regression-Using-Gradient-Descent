@@ -84,11 +84,15 @@ y_test_pred = predict(X_test)
 
 accuracy = np.mean(y_test_pred == y_test)
 print("Accuracy:", accuracy)
-print("confusion matrix:",classification_report(y_test,y_test_pred))
+print("classification report",classification_report(y_test,y_test_pred))
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_test_pred))
+
 ```
 
 ## Output:
-<img width="727" height="215" alt="Screenshot 2026-02-06 092751" src="https://github.com/user-attachments/assets/2656dd6c-3d48-4b1a-9b37-00ac062284d2" />
+<img width="887" height="332" alt="Screenshot 2026-02-06 140720" src="https://github.com/user-attachments/assets/a24163e3-5140-40c9-a32e-e1bebaf258b0" />
+
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
